@@ -11,6 +11,7 @@ const netlifyCmsPaths = {
 }
 
 const settings = require("./src/util/site.json")
+const path = require(`path`)
 
 module.exports = {
   siteMetadata: settings.meta,
